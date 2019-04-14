@@ -1,0 +1,61 @@
+html,
+body,
+#map-id {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.legend {
+  padding: 10px;
+  font-family: Calibri, serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #555;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend .low {
+  color: #ec8a2e;
+}
+
+.legend .empty {
+  color: #a0353a;
+}
+
+.legend .coming-soon {
+  color: #f4ba48;
+}
+
+.legend .healthy {
+  color: #1b904f;
+}
+
+.legend .out-of-order {
+  color: #007dff;
+}
+
+i.icon-level-0{
+  font-size:10px;
+}
+
+i.icon-level-1{
+  font-size: 15px;
+}
+
+i.icon-level-2{
+  font-size: 20px;
+}
+
+i.icon-level-3{
+  font-size: 25px;
+}
+i.icon-level-4{
+  font-size: 29px;
+}
+i.icon-level-5{
+  font-size: 35px;
+}
