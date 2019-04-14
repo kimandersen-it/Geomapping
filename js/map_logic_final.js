@@ -181,7 +181,7 @@ console.log(quakeInfo);
      
       newMarker.addTo(layers[quakeCode]);
       // Bind a popup to the marker that will  display on click. This will be rendered as HTML
-      newMarker.bindPopup(eQuake.properties.tz + "<br> Magnitude: " + eQuake.properties.mag + "<br>" + eQuake.properties.place + " Place");
+      newMarker.bindPopup("Magnitude: " + eQuake.properties.mag + "<br>" + eQuake.properties.place + " Place");
     
     }
 
